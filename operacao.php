@@ -1,5 +1,4 @@
 <?php
-
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
     $select = $_POST['select'];
@@ -25,7 +24,6 @@
     }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -37,7 +35,6 @@
 <body>
     <div class="main">
         <div class="foco">
-
             <form class="form" method="post">
                 <h3>CALCULADORA</h3>
                 <label class="label" for="num1"></label>digite um numero:<br>
@@ -56,11 +53,8 @@
 
                 <label class="resultado" name="resultado" for="resultado">RESULTADO = <?php echo $resultado ?></label>
             </form>
-
             <!-- return do resultado -->
-
         </div>
     </div>
-    
 </body>
 </html>

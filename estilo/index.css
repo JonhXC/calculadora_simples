@@ -3,9 +3,6 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
-
 .main {
     display: flex;
     justify-content: center;
@@ -15,7 +12,6 @@
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
-
 .foco {
     padding-top: 100px;
     display: flex;
@@ -25,30 +21,25 @@
     height: 100%;
     background-color: rgb(235, 235, 235);
 }
-
 .form {
     width: 50%;
     height: 100%;
 }
-
 #select {
     width: 60px;
     height: 26px;
     margin-bottom: 30px;
 }
-
 .label, #input {
     width: 50%;
     height: 24px;
     margin-bottom: 30px;
 }
-
 button {
     width: 120px;
     height: 24px;
     margin-bottom: 30px;
 }
-
 .resultado {
     margin-top: 0px;
     color: darkblue;
